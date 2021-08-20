@@ -1,9 +1,12 @@
 .checkout-shipping-shortcode{
 
     .casauto-shipping-box{
-       padding: 2rem 1rem!important;
+       padding: 2rem 0!important;
        h4{
         color: #13417D!important;
+       }
+       p{
+           margin-bottom: 1rem!important;
        }
       #shipping-ul-list{
           padding: 1rem!important;
@@ -27,7 +30,25 @@
               grid-template-columns: 1fr 6fr 1fr;
               border-bottom: 1px solid rgb(182, 180, 180);
               padding: 0.5rem;
-              
+              .shipping-list-item-value{
+                  p{
+                      
+                    @media screen and (max-width: 575px) {
+                      font-size: 14px;
+                    }
+                    @media screen and (max-width: 370px) {
+                        font-size: 12px;
+                      }
+                  }
+              }
+              .shipping-list-item-price{
+                @media screen and (max-width: 575px) {
+                    font-size: 14px;
+                  }
+                  @media screen and (max-width: 370px) {
+                    font-size: 12px;
+                  }
+              }
           }
           .shipping-list-item-last{
               display: grid;
@@ -36,6 +57,14 @@
               .shipping-list-item-input{
                   display: flex;
                   gap: 0.5rem;
+                  label{
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px;
+                      }
+                    @media screen and (max-width: 370px) {
+                        font-size: 12px;
+                      }
+                  }
               }
           }
           .shipping-list-item:last-child{

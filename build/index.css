@@ -1,8 +1,11 @@
 .checkout-shipping-shortcode .casauto-shipping-box {
-  padding: 2rem 1rem !important;
+  padding: 2rem 0 !important;
 }
 .checkout-shipping-shortcode .casauto-shipping-box h4 {
   color: #13417D !important;
+}
+.checkout-shipping-shortcode .casauto-shipping-box p {
+  margin-bottom: 1rem !important;
 }
 .checkout-shipping-shortcode .casauto-shipping-box #shipping-ul-list {
   padding: 1rem !important;
@@ -27,6 +30,26 @@
   border-bottom: 1px solid #b6b4b4;
   padding: 0.5rem;
 }
+@media screen and (max-width: 575px) {
+  .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item .shipping-list-item-value p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item .shipping-list-item-value p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item .shipping-list-item-price {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item .shipping-list-item-price {
+    font-size: 12px;
+  }
+}
 .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item-last {
   display: -ms-grid;
   display: grid;
@@ -37,6 +60,16 @@
 .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item-last .shipping-list-item-input {
   display: flex;
   gap: 0.5rem;
+}
+@media screen and (max-width: 575px) {
+  .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item-last .shipping-list-item-input label {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item-last .shipping-list-item-input label {
+    font-size: 12px;
+  }
 }
 .checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item:last-child {
   border-bottom: none;
