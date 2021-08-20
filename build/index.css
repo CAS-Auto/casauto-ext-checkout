@@ -1,0 +1,45 @@
+.checkout-shipping-shortcode .casauto-shipping-box {
+  padding: 2rem 1rem !important;
+}
+.checkout-shipping-shortcode .casauto-shipping-box h4 {
+  color: #13417D !important;
+}
+.checkout-shipping-shortcode .casauto-shipping-box #shipping-ul-list {
+  padding: 1rem !important;
+  background: linear-gradient(110.792486332deg, #f6f5f5 5.5338541667%, gainsboro 96.6796875%) !important;
+}
+.checkout-shipping-shortcode .casauto-shipping-box #shipping-ul-list li {
+  list-style: none !important;
+}
+.checkout-shipping-shortcode .casauto-shipping-box #shipping-terms-ul li {
+  list-style: none !important;
+}
+.checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b6b4b4;
+}
+.checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 6fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
+  border-bottom: 1px solid #b6b4b4;
+  padding: 0.5rem;
+}
+.checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item-last {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 8fr;
+  grid-template-columns: 1fr 8fr;
+  padding: 0.5rem;
+}
+.checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item-last .shipping-list-item-input {
+  display: flex;
+  gap: 0.5rem;
+}
+.checkout-shipping-shortcode .casauto-shipping-box .shipping-list-wrapper .shipping-list-item:last-child {
+  border-bottom: none;
+}
+
+/*# sourceMappingURL=index.css.map*/

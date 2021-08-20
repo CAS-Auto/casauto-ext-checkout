@@ -1,0 +1,297 @@
+:root {
+    --main-bg-color: #13417D;
+  }
+.casauto-ext-terms__wrapper{
+    margin: 2rem auto;
+    margin-bottom: 50px;
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 0 3rem;
+   
+}
+
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 2rem;
+   
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading span{
+    text-align: center;
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading span:nth-child(1){
+   margin-right: auto;
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading span:nth-child(2){
+    margin: auto;
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading span:nth-child(3){
+    margin-left: auto;
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__heading .bullet{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: gainsboro;
+    
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__heading  .active{
+    background-color: #13417D!important;
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading .active{
+    color: #13417D;   
+   
+}
+.casauto-ext-terms__wrapper .casauto-ext_terms__subheading .active::first-line{
+    font-weight: 800;
+}
+
+.casauto-ext-terms__wrapper .casauto-ext_terms__heading .line{
+    width: 2px;
+    height: 2px;
+    width: 300px;
+    background-color: gainsboro;
+}
+
+            /* vhicel info */
+
+.casauto-ext_terms__wrapper{
+    display: flex;
+    gap: 4rem;
+    padding: 2rem
+   
+    
+}
+.casauto-ext_terms_vehicle_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.casauto-ext_terms_vehicle_wrapper .casauto-ext_terms_vehicle_wrapper_info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper_info .casauto-ext_terms_vehicle_item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    gap: 1rem;
+    justify-content: stretch;
+}
+.casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper_info .casauto-ext_terms_vehicle_item h4{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper  .casauto-ext_terms_vehicle_deposit {
+    display: flex;
+   
+   margin-top: 1rem;
+   border-bottom:  1px solid gainsboro;
+   padding: 30px 0;
+   flex-direction: column;
+}
+.casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper  .casauto-ext_terms_vehicle_deposit  p{
+margin: 0;
+}
+.casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper  .casauto-ext_terms_vehicle_deposit .casauto-ext_terms_feed{
+    display: flex;
+}
+.casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper  .casauto-ext_terms_vehicle_deposit h3:last-child{
+    
+    
+    margin-left: auto;
+    
+}
+
+.casauto-ext_terms_excerpt_terms{
+    padding: 30px 0;
+}
+
+.casuto-ext_terms_costumer_info{
+    border-bottom:  1px solid gainsboro;  
+    margin-bottom: 2rem;
+    padding: 30px 0;
+}
+/* form.checkout{
+    display: none;
+} */
+/* .form-compliance{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s linear; 
+}*/
+.visible-ext{
+    display: block;
+    opacity: 1;
+}
+
+/* .casauto-ext_account_approved {
+  display: none;
+  margin: 3rem 1rem
+} */
+.casauto-ext_account_approved button{
+    
+    padding: 0.7rem 6rem;
+    margin-top: 2rem;
+}
+
+
+/* ---sucess checkout ------------------------------------- */
+
+.casauto-success-checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.casauto-success-checkout .casauto-success-checkout_alert{
+    background-color: hsl(84, 83%, 88%) ;
+    padding: 1rem;
+    display: flex;
+    
+}
+.casauto-success-checkout .casauto-success-checkout_alert .casauto-success-checkout_alert_icon span{
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+    border: 1px solid green;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.casauto-success-checkout .casauto-success-checkout_alert .casauto-success-checkout_alert_text{
+    display: flex;
+    flex-direction: column;
+}
+.casauto-success-checkout .casauto-success-checkout_alert .casauto-success-checkout_alert_text h3{
+    line-height: 10px;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.casauto-success-checkout .casauto-success-checkout_next_item{
+   padding: 1rem;
+    border-bottom: 1px solid #ebf4eb;
+    align-items: center;
+    display: flex;
+}
+.casauto-success-checkout .casauto-success-checkout_next_item h4{
+    font-size: 18px;
+}
+.casauto-success-checkout .casauto-success-checkout_next_item  span{
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-right: 1rem;
+    background-color: #13417D;
+    
+    padding: 1px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.casauto-success-checkout .casauto-success-checkout_next_item:nth-child(2)  span{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-right: 1rem;
+    background-color: #00A1CA;
+    
+    padding: 1px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.casauto-success-checkout .casauto-success-checkout_next_item  p{
+    margin: 0;
+    color: grey;
+}
+.casauto-success-checkout_question h4{
+    font-size: 18px;
+}
+.casauto-success-checkout_question a{
+    color: #00A1CA;
+    font-size: 20px;
+}
+
+.casauto-success-checkout_go__dashboard {
+    width: 100%;
+    display: flex;
+}
+.casauto-success-checkout_go__dashboard  a{
+    background-color:var(--main-bg-color);
+    color: white;
+    text-decoration: none!important;
+    padding: 0.5rem 3rem;
+}
+.casauto-success-checkout_go__dashboard  a:hover{
+    text-decoration: none!important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .casauto-ext_terms__wrapper{
+        flex-direction: column;
+    }   
+    .casauto-ext_terms_vehicle_wrapper{
+        width: auto;
+    }
+    .sales-representative_wrapper .info-btn_wrapper{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 575px){
+    .casauto-ext-terms__wrapper .casauto-ext_terms__subheading span{
+        font-size: 1rem;
+        line-height: 1.2;
+    } 
+    .casauto-ext-terms__wrapper .casauto-ext_terms__heading .bullet{
+        width: 1rem;
+    }  
+    .casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper_info .casauto-ext_terms_vehicle_item h4{
+        font-size: 16px
+    }
+    .casauto-ext_terms__wrapper .casauto-ext_terms_vehicle_wrapper .casauto-ext_terms_vehicle_deposit h3{
+        font-size: 16px
+    }
+}
+@media only screen and (max-width: 420px){
+    
+    .casauto-ext-terms__wrapper .casauto-ext_terms__heading .bullet{
+        width: 1.3rem;
+    }  
+}
+@media only screen and (max-width: 360px){
+    .casauto-ext-terms__wrapper .casauto-ext_terms__heading{
+        padding: 0 0.5rem
+    }
+   
+    .casauto-ext-terms__wrapper .casauto-ext_terms__heading .bullet{
+        width: 1.4rem;
+    }  
+
+}

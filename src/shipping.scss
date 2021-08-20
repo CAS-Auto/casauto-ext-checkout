@@ -1,0 +1,47 @@
+.checkout-shipping-shortcode{
+
+    .casauto-shipping-box{
+       padding: 2rem 1rem!important;
+       h4{
+        color: #13417D!important;
+       }
+      #shipping-ul-list{
+          padding: 1rem!important;
+          background: linear-gradient(110.79248633202553deg, rgba(246, 245, 245,1) 5.533854166666667%,rgba(220, 220, 220,1) 96.67968749999999%)!important;
+          li{
+              list-style: none!important;
+          }
+      }
+      #shipping-terms-ul{
+          li{
+              list-style: none!important;
+          }
+      }
+      .shipping-list-wrapper{
+          display: flex;
+          flex-direction: column;
+          border: 1px solid rgb(182, 180, 180);
+          
+          .shipping-list-item{
+              display: grid;
+              grid-template-columns: 1fr 6fr 1fr;
+              border-bottom: 1px solid rgb(182, 180, 180);
+              padding: 0.5rem;
+              
+          }
+          .shipping-list-item-last{
+              display: grid;
+              grid-template-columns: 1fr 8fr;
+              padding: 0.5rem;
+              .shipping-list-item-input{
+                  display: flex;
+                  gap: 0.5rem;
+              }
+          }
+          .shipping-list-item:last-child{
+              border-bottom: none;
+          }
+      }
+
+    }
+}
