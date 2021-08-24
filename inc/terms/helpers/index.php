@@ -211,6 +211,8 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 </div> -->
 <?php echo do_shortcode('[sales-representative]') ?>
 
-<!-- <div class="casauto-success-checkout_go__dashboard">
+<?php if ($_SERVER['REQUEST_METHOD'] === 'POST') { ?>
+ <div class="casauto-success-checkout_go__dashboard">
     <a href="/my-account">View your Dashboard</a>
-</div> -->
+</div>
+<?php } ?>
